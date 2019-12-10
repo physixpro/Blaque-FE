@@ -19,7 +19,7 @@ nav {
 }
 
 #nav-3 {
-  background:black;
+  background:orange;
   position: fixed;
   width:100%;
   z-index: 3000;
@@ -189,8 +189,8 @@ li a {
 
 #waitlist-btn {
   position: relative;
-  top: 20em;
-  right: 7.5em;
+  top: -5em;
+  right: -3em;
   font-size: 20px;
   border-radius: 10px;
   background-color: brown;
@@ -396,6 +396,25 @@ li a {
 
 /************************ 375 pixels wide ********/
 @media screen and (min-width: 375px) {
+  .AboutUs {
+    background-image: url("landing-2.png");
+    max-width: 100%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index:0;
+  }
+  #test{
+    display:relative;
+    text-align:center;
+    font-size:25px;
+    color:white;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight:bolder;
+    letter-spacing:15px;
+  }
   
   .radioCustomLabel {
     margin:0;
@@ -411,24 +430,24 @@ li a {
   .question {
     margin: 0;
     padding: 0.5rem 1rem .5rem 2rem;
-    font-size: 24px;
+    font-size: 15px;
     position: relative;
     top:1em; 
-    left:3em;
+    left:1em;
   }
   .questionCount {
     display: inline-block;
     text-align: center;
     padding: 1.5rem 2.5rem 0;
-    font-size: 15px;
+    font-size: 10px;
     position: relative;
-    left:-1px;
-    bottom:5em;
+    left:10em;
+    bottom:1em;
   }
   /*** this positions the answers***/
   .answerOption {
     position: relative;
-    left:35%;
+    left:5%;
     
   }
   /*** This makes the answers into a vertical column and positions them**/
@@ -505,14 +524,38 @@ li a {
 /************************ 425 pixels wide ********/
 @media screen and (min-width: 425px) {
   /*** this separates the radio buttons ***/
-  
+  .AboutUs {
+    background-image: url("landing-2.png");
+    max-width: 100%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index:0;
+  }
+  #test{
+    display:relative;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight:bolder;
+    letter-spacing:30px;
+  }
+  .club{
+    top:-200px;
+  }
+  .health{
+    top:-230px;
+  }
   .radioCustomLabel {
     margin:0;
     position: relative;
     width: 100%;
     margin: 0;
     padding: 1rem 1rem 3rem 5rem;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 2;
     left:7em;
     
@@ -520,22 +563,23 @@ li a {
   .question {
     margin: 0;
     padding: 0.5rem 1rem .5rem 2rem;
-    font-size: 24px;
+    font-size: 12px;
     position: relative;
-    top:9em; 
-    left:3em;
+    top:3em; 
+    left:1em;
   }
   .questionCount {
     padding: 1.5rem 2.5rem 0;
-    font-size: 20px;
+    font-size: 10px;
     position: relative;
-    left:0.5em;
-    bottom:5em;
+    left:14em;
+    bottom:1em;
   }
   /*** this positions the answers***/
   .answerOption {
     position: relative;
-    left:35%;
+    left:15%;
+    top:2em;
     
   }
   /*** This makes the answers into a vertical column and positions them**/
@@ -575,14 +619,15 @@ li a {
   }
   #paragraphone-info {
     position: absolute;
-    top: 45em;
+    top: 67em;
     left: 6em;
+    font-size: 15px;
   }
 
   /*questionnaire btn page 2*/
   #btn {
     right: 8em;
-    top: 22em;
+    top: 15em;
   }
   #coming-soon {
     display: inline-block;
@@ -690,6 +735,25 @@ li a {
 
 @media screen and (min-width: 768px) {
   /*** this separates the radio buttons ***/
+  .AboutUs {
+    background-image: url("landing-2.png");
+    max-width: 100%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index:0;
+  }
+  #test{
+    display:relative;
+    text-align:center;
+    font-size:70px;
+    color:white;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight:bolder;
+    letter-spacing:30px;
+  }
   .radioCustomLabel {
     position: relative;
     width: 100%;
@@ -701,20 +765,20 @@ li a {
   }
   .question {
     position: relative;
-    top:1em; 
-    left:1em;
+    top:3em; 
+    left:2em;
   }
   .questionCount {
     padding: 1.5rem 2.5rem 0;
-    font-size: 30px;
+    font-size: 15px;
     position: relative;
-    left:3em;
+    left:20em;
     top:0.5em;
   }
   .answerOption {
     position: relative;
-    left:54%;
-    top:5em;   
+    left:1%;
+    top:8em;   
   }
   .answerOptions{
     display: flex;
@@ -849,26 +913,51 @@ li a {
 }
 /******************************** screen at 1024 pixels***********/
 @media screen and (min-width: 1024px) {
-
+  .AboutUs {
+    background-image: url("landing-2.png");
+    max-width: 100%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index:0;
+  }
+  #test{
+    display:relative;
+    text-align:center;
+    font-size:70px;
+    color:white;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight:bolder;
+    letter-spacing:30px;
+  }
+  .club{
+    top:-250px;
+  }
+.health{
+  top:-300px;
+}
   .question {
+    position: relative;
     margin: 0;
     padding: 0.5rem 2.5rem 1.5rem 2.5rem;
-    font-size: 40px;
-    position: relative;
-    bottom:4em; 
-    left:2em;
+    font-size: 25px;
+    position: relative; 
+   text-align: center;
+   top:3em;
   }
   .questionCount {
     padding: 1.5rem 2.5rem 0;
-    font-size: 30px;
+    font-size: 15px;
     position: relative;
-    left:8em;
+    left:29em;
     top:2em;
   }
   .answerOption {
     position: relative;
-    left:26%;
-    top:2em;
+    left:7%;
+    top:8em;
   }
   
   
@@ -1006,7 +1095,7 @@ li a {
     font-weight: 300;
     position: relative;
     right: 1.7em;
-    bottom: 2.3em;
+    bottom: 2em;
     font-size: 150px;
     letter-spacing: 40px;
   }
@@ -1016,7 +1105,7 @@ li a {
     font-size: 30px;
     position: relative;
     right: 2.3em;
-    bottom: 14em;
+    bottom: 13em;
     letter-spacing: 26px;
   }
   /*page one list*/
@@ -1024,7 +1113,7 @@ li a {
     position: relative;
     left: 9em;
     line-height: 90px;
-    bottom: 7em;
+    bottom: 11em;
   }
   li a {
     font-size: 40px;
@@ -1036,7 +1125,7 @@ li a {
   #paragraphone-info {
     position: absolute;
     font-size: 30px;
-    right: 1em;
+    right: 5em;
     line-height: 37px;
     top: 0em;
     letter-spacing: 8px;
@@ -1048,14 +1137,14 @@ li a {
     border: none solid green;
     padding: 125px 450px 275px 100px;
     margin: 20px;
-    bottom: 25em;
+    bottom: 18em;
     position: relative;
     border-radius: 14px;
   }
   /*questionnaire btn page 2*/
   #btn {
     left: 17em;
-    top: -550px;
+    top: -430px;
   }
   .AboutUs {
     background-image: url("landing-2.png");
@@ -1182,23 +1271,24 @@ li a {
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
-  font-size: 40px;
+  font-size: 30px;
   position: relative;
   bottom:4em;
+  text-align: center;
 }
 .questionCount {
   padding: 1.5rem 2.5rem 0;
   font-size: 30px;
   position: relative;
-  left:15em;
+  left:19em;
   top:0.5em;
 }
 
 /* AnswerOption Component */
 .answerOption {
   position: relative;
-  left:31%;
-  top:2em;
+  left:15%;
+  top:10em;
 }
 
 .answerOption:hover {
