@@ -1,16 +1,15 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
 
-
-
-
-class Blaque extends Component{
-
-    render(){
-        return(
-
-    <div data-aos="fade-left"className='Blaque'>
-            <h1 className="club" id="club-one">{this.props.value}</h1>
-        <h2 className="health" id="pageonehealth">{this.props.health}</h2>
+class Blaque extends Component {
+  render() {
+    return (
+      <div className="Blaque">
+        <h1 className="club" id="club-one">
+          {this.props.value}
+        </h1>
+        <h2 className="health" id="pageonehealth">
+          {this.props.health}
+        </h2>
         <ul id="pageone-list">
           <li>
             <a href="#information">{this.props.about}</a>
@@ -22,9 +21,9 @@ class Blaque extends Component{
             <a href="mailto:esorts.k990@gmail.com">{this.props.contact}</a>
           </li>
         </ul>
-            </div>     
-        )
-    }
+      </div>
+    );
+  }
 }
 
-export default Blaque
+export default Blaque;

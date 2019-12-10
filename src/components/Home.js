@@ -12,6 +12,7 @@ import FourthBackground from "../landing.png";
 
 
 
+
 class Home extends Component {
   render() {
     return (
@@ -30,22 +31,12 @@ class Home extends Component {
             <Link to="/contact">CONTACT{this.props.contact}</Link>
           </li>
         </ul>
-        {/*page 2*/}
 
         <div>
           <img src={SecondBackground} alt="landingpage" className="bg-img-2" />
           <Blaque value="BLAQUE" />
           <Healthclubs value="HEALTH CLUBS" />
-          {/* <div id="box">
-            <ParagraphOne paragraph="Now is your chance to tell us what a luxury health club means to you! " />
-
-            <div>
-              <img src={ThirdBackground} alt="landingpage" className="bg-img-3" />
-            </div>
-            <ParagraphTwo value="BLAQUE inc is the first Luxury Health Club designed to cater to the unique fitness and wellness needs of the Black Community." />
-            <div>
-              <img src={FourthBackground} alt="landingpage" class="bg-img-4" />
-            </div> */}
+          
             <Waitlist />
 
             

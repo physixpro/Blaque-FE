@@ -14,6 +14,9 @@ import ParagraphOne from "./components/ParagraphOne";
 import ParagraphTwo from "./components/ParagraphTwo";
 import ThirdBackground from "./treadmills.png";
 import SecondBlaque from "./components/SecondBlaque";
+import NavBar from  "./components/NavBar"
+
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -143,16 +146,16 @@ class App extends Component {
 
   render() {
     return (
+      
       <div className="wrapper">
             {/* <img src={Background} alt="landingpage" className="bg-img" /> */}
-
-
+          {<NavBar />}
             {/*Section 1 */}
             <Blaque value="BLAQUE" health="HEALTH&nbsp;CLUBS" about="ABOUT&nbsp;US" join="JOIN&nbsp;THE&nbsp;WAITLIST" contact="CONTACT"/>
             {/*Section 2 */}
-            <Healthclubs secondblaque="BLAQUE" secondhealth="HEALTH&nbsp;CLUBS" paragraph="Now's your chance to tell us what a Luxury Health Club for the Black Community means to you!"/>
+            <Healthclubs blaque="BLAQUE"secondblaque="BLAQUE" secondhealth="HEALTH&nbsp;CLUBS" paragraph="Now's your chance to tell us what a Luxury Health Club for the Black Community means to you!"/>
             {/*Section 3 */}
-            <AboutUs paragraphtwo="BLAQUE.inc is the first Luxury Health Club designed to cater to the unique fitness and wellness needs of the Black Community" coming="COMING SOON TO NYC" wait="JOIN THE WAITLIST" />
+            <AboutUs test="BLAQUE" paragraphtwo="BLAQUE.inc is the first Luxury Health Club designed to cater to the unique fitness and wellness needs of the Black Community" coming="COMING SOON TO NYC" wait="JOIN THE WAITLIST" />
       
               <Waitlist value="BLAque&nbsp;HEALTH&nbsp;CLUBS WAITLIST"/>
 

@@ -81,7 +81,7 @@ class Waitlist extends Component {
           //Home City Field
         }
         <div className="mail">
-          <label className="text">NEIGHBORHOOD(CITY,STATE)</label>
+          <label className="text">NEIGHBORHOOD (CITY,STATE)</label>
           <input className="box-input" id="hometown-box"
             type="text"
             name="hometown"
